@@ -51,4 +51,4 @@ Youtube Focus Mode - Productivity Booster/
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details. Replace "Your Name" in the `LICENSE` file with the correct copyright holder and adjust the year if needed.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
