@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Focus Mode</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="../icons/icon48.png" alt="Logo" class="logo">
+      <h1>Focus Mode</h1>
+    </header>
+
+    <div class="card focus-section">
+      <div class="focus-header">
+        <h2>Distraction Free</h2>
+        <label class="switch">
+          <input type="checkbox" id="focusToggle">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <p class="subtitle">Hides recommendations, comments, and shorts.</p>
+    </div>
+
+    <div class="card stats-section">
+      <h2>Watch Time Today</h2>
+      <div class="time-display" id="timeDisplay">00:00:00</div>
+      <button id="resetTimeBtn" class="btn btn-secondary">Reset Time</button>
+    </div>
+
+    <div class="card limit-section">
+      <h2>Daily Watch Limit</h2>
+      <div class="limit-controls">
+        <input type="number" id="limitInput" min="0" placeholder="Minutes">
+        <button id="saveLimitBtn" class="btn btn-primary">Save Limit</button>
+      </div>
+      <p class="limit-status" id="limitStatus">No limit set</p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

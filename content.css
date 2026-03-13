@@ -1,0 +1,46 @@
+/* Hide Distractions when Focus Mode is ON */
+html.focus-mode-active ytd-watch-next-secondary-results-renderer, /* Sidebar suggestions (video page) */
+html.focus-mode-active ytd-browse[page-subtype="home"] ytd-rich-grid-renderer, /* Homepage recommendations */
+html.focus-mode-active ytd-comments, /* Comments section */
+html.focus-mode-active .ytp-ce-element, /* End screen video suggestions */
+html.focus-mode-active ytd-reel-shelf-renderer, /* Shorts shelf */
+html.focus-mode-active .ytd-feed-filter-chip-bar-renderer /* Filter chips on home */
+{
+  display: none !important;
+}
+
+/* Limit Reached Full Screen Overlay */
+#yt-focus-limit-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #111827;
+  color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999999;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+#yt-focus-limit-overlay h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: #f20000;
+}
+
+#yt-focus-limit-overlay p {
+  font-size: 24px;
+  margin-bottom: 32px;
+  color: #9ca3af;
+}
+
+#yt-focus-limit-overlay .icon {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 32px;
+}
