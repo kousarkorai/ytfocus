@@ -1,23 +1,14 @@
 # YouTube Focus Mode – Productivity Booster
 
+![License](https://img.shields.io/badge/license-MIT-yellow.svg)
+
 A professional Chrome Extension (Manifest V3) that helps users stay focused while watching YouTube. It hides time-wasting distractions and tracks your daily watch time.
 
-## 🚀 Short Marketing Tagline
-**"Take Back Your Time: Enjoy YouTube without the rabbit hole."**
-
----
-
-## 📝 Chrome Web Store Description
-
-**YouTube Focus Mode – Productivity Booster**
-Stay productive and intentional with your YouTube time. This extension transforms YouTube from a distraction machine into a focused learning tool.
-
-Are you tired of going to YouTube for one tutorial and ending up watching hours of recommended shorts and sidebars? Focus Mode fixes that by instantly removing engineered distractions from the YouTube interface while elegantly tracking your daily watch time.
-
 **Key Features:**
+
 - 🛡️ **Hide Distractions:** Instantly hides recommended videos, shorts, sidebar suggestions, comments, end screens, and trending sections.
 - ⏱️ **Watch Time Tracker:** See exactly how much time you've spent on YouTube today right in the extension popup.
-- 🛑 **Daily Watch Limit:** Set a daily allowance for YouTube (e.g., 30 mins) and get a full-screen block when your time is up. 
+- 🛑 **Daily Watch Limit:** Set a daily allowance for YouTube (e.g., 30 mins) and get a full-screen block when your time is up.
 - 🎛️ **Quick Toggle Focus Mode:** Easily switch Focus Mode on or off with a single click if you want to browse normally.
 - ⚡ **Lightweight & Privacy First:** No data leaves your browser. Watch time and settings are stored locally on your device.
 
@@ -57,3 +48,7 @@ Youtube Focus Mode - Productivity Booster/
     ├── popup.css       # Clean, modern, minimalist popup styles
     └── popup.js        # UI logic, state management, and real-time updates
 ```
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details. Replace "Your Name" in the `LICENSE` file with the correct copyright holder and adjust the year if needed.
